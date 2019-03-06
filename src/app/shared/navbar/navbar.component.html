@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500" style=" background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #2C3E50) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" href="">SARITA TOMPE</a>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto" >
+               <li class="nav-item" *ngIf="!isDocumentation()">
+                        <a  href="#section-a"  class="nav-link"><h3 style="font-weight: 510 !important; ">PORTFOLIO</h3>
+                            <p class="d-lg-none" >Portfolio</p>
+                        </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a class="nav-link"  href="#section-b"><h3 style="font-weight: 510 !important; ">PERSONAL INFO</h3>
+                        <p class="d-lg-none" >pinfo</p>
+                    </a>
+                </li> 
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                        <a class="nav-link" href="/assets/img/saritatompe_resume.pdf"  target="_blank"><h3 style="font-weight: 510 !important; ">RESUME</h3>
+                            <p class="d-lg-none" >resume</p>
+                        </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                        <a class="nav-link"  href="#section-c"><h3 style="font-weight: 510 !important; ">WHY HIRE ME ?</h3>
+                            <p class="d-lg-none" >Hire</p>
+                        </a>
+                </li> 
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- <div class="navbar">
+    <a href="#section-a" (click)="getMenu(home)"><h3>HOME</h3></a>
+    <a href="#section-b"><h3>PORTFOLIO</h3></a>
+    <a href="/assets/img/saritatompe_resume.pdf"  download="SaritaTompe_Resume"><h3>RESUME</h3></a>
+  </div> -->
