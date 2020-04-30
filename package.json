@@ -30,7 +30,7 @@
     "bootstrap": "^4.1.2",
     "codyhouse-framework": "^1.0.7",
     "core-js": "2.4.1",
-    "jquery": "3.2.1",
+    "jquery": "3.5.0",
     "jw-bootstrap-switch-ng2": "2.0.1",
     "ng2-nouislider": "1.7.12",
     "ng2-page-scroll": "^4.0.0-beta.12",
